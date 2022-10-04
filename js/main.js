@@ -112,3 +112,34 @@ while(intentos > 0) {
         console.log("Expulsado!")
     }
 } */
+
+/* // 13
+function CalculadoraInversa() {
+    let operando1 = parseInt(prompt("Introduce el primer operando"));
+    let operando2 = parseInt(prompt("Introduce el segundo operando"));
+    let operador = prompt("Introduce el signo del operador: +, -, *, /");
+
+    switch (operador) {
+        case "+":
+            console.log(operando1,"+",operando2,"=",(operando1 + operando2));
+        break;
+
+        case "-":
+            console.log(operando1,"-",operando2,"=",(operando1 - operando2));
+        break;
+
+        case "*":
+            console.log(operando1,"*",operando2,"=",(operando1 * operando2));
+        break;
+
+        case "/":
+            console.log(operando1,"/",operando2,"=",(operando1 / operando2));
+        break;
+
+        default:
+            console.log("Recuerda poner signos aritméticos")
+        break;
+    }
+}
+
+CalculadoraInversa(); */
